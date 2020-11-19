@@ -7,6 +7,7 @@ static const int MON1[12] = {31, 30, 31, 28, 31, 30, 31, 31, 30, 31, 30, 31};
 static const int MON2[12] = {31, 30, 31, 29, 31, 30, 31, 31, 30, 31, 30, 31}; //
 
 void GetMonthAndDay(int nDays, int *nMonth, int *nDay, int IsLeapYear);
+
 void GetHourMinSec(int nSecond);
 
 int
